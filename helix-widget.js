@@ -105,12 +105,6 @@
       const res = await fetch(apiUrl + "/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        <script
-  src="https://cdn.jsdelivr.net/gh/NOTANDI/REPO@main/helix-widget.js"
-  data-api="https://HELIX-BOT-XXXX.repl.co"
-  data-primary="#059669"
-  data-position="right">
-</script>
         body: JSON.stringify({ text })
       });
       const data = await res.json();
